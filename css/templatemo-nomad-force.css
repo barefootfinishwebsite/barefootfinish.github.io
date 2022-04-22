@@ -628,7 +628,7 @@ strong {
 }
 
 .social-icon-link {
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--grey-color);
   font-size: 1rem;
   display: inline-block;
   vertical-align: top;
@@ -638,7 +638,7 @@ strong {
 }
 
 .social-icon-link:hover {
-  color: var(--primary-color);
+  color: var(--dark-color);
 }
 
 /*---------------------------------------
