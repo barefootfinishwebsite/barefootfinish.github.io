@@ -1,10 +1,4 @@
-/*
 
-TemplateMo 567 Nomad Force
-
-https://templatemo.com/tm-567-nomad-force
-
-*/
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
@@ -727,16 +721,16 @@ strong {
 ----------------------------------*/
 
 
-@media only screen and (max-width: 1600px) {
+/* @media only screen and (max-width: 1600px) {
   .header-logo {
     left: 60px;
   }
-}
+}  */
 
 @media only screen and (max-width: 800px) and (orientation: landscape) {
-  .header-logo {
+ /* .header-logo {
     left: 40px;
-  }
+  } */
 
   .header-logo img {
     width: 350px;
@@ -745,9 +739,9 @@ strong {
 }
 
 @media only screen and (max-width: 800px) and (orientation: portrait) {
-  .header-logo {
+  /* .header-logo {
     left: 40px;
-  }
+  } */
 
   .header-logo img {
     width: 350px;
@@ -761,9 +755,9 @@ strong {
     top: 12px;
   }
 
-  .header-logo {
+  /* .header-logo {
     left: 30px;
-  }
+  } */
   .header-logo img {
     width: 250px;
     height: 114px;
@@ -778,9 +772,9 @@ strong {
     top: 12px;
   }
 
-  .header-logo {
+  /* .header-logo {
     left: 30px;
-  }
+  } */
   .header-logo img {
     width: 250px;
     height: 114px;
@@ -793,9 +787,9 @@ strong {
     top: 6px;
   }
 
-  .header-logo {
+  /* .header-logo {
     left: 25px;
-  }
+  } */
   .header-logo img img {
     width: 200px;
     height: 91px;
@@ -807,10 +801,9 @@ strong {
   .s-header {
     top: 6px;
   }
-
-  .header-logo {
+ /* .header-logo {
     left: 25px;
-  }
+  } */
   .header-logo img img {
     width: 200px;
     height: 91px;
