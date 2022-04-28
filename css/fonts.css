@@ -2,7 +2,7 @@
     font-family: 'CaviarDreams';
     src: url("/fonts/CaviarDreams/CaviarDreams.ttf") format('truetype'),
          url("/fonts/CaviarDreams/CaviarDreams_Bold.ttf") format('truetype'),
-         url("/fonts/CaviarDreams/CaviarDreams_BoldItalic.ttf") format('truetype');
+         url("/fonts/CaviarDreams/CaviarDreams_BoldItalic.ttf") format('truetype'),
          url("/fonts/CaviarDreams/CaviarDreams_Italic.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
