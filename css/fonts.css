@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'CaviarDreams';
-    src: url("/fonts/CaviarDreams.ttf") format('truetype'),
-         url("/fonts/CaviarDreams_Bold.ttf") format('truetype'),
-         url("/fonts/CaviarDreams_BoldItalic.ttf") format('truetype'),
-         url("/fonts/CaviarDreams_Italic.ttf") format('truetype');
+    src: url("/fonts/caviardreams.ttf") format('truetype'),
+         url("/fonts/caviardreams_bold.ttf") format('truetype'),
+         url("/fonts/caviardreams_bolditalic.ttf") format('truetype'),
+         url("/fonts/caviardreams_italic.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 
