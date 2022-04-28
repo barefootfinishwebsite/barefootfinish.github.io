@@ -1,7 +1,7 @@
-/*@import url("css/fonts.css"); */
+@import url("css/fonts.css"); 
 
-@font-face {
-    font-family: 'CaviarDreams';
+/*@font-face {
+    font-family: 'caviardreams';
     src: url("/fonts/caviardreams.ttf") format('truetype'),
          url("/fonts/caviardreams_bold.ttf") format('truetype'),
          url("/fonts/caviardreams_bolditalic.ttf") format('truetype'),
@@ -9,7 +9,7 @@
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
@@ -24,7 +24,15 @@
   --title-color:                  #565758;
   --p-color:                      #717275;
 
-  --body-font-family:           'CaviarDreams', sans-serif;
+  --body-font-family:           'caviardreams', sans-serif;
+    
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "caviardreams", sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
 
   --h1-font-size:               72px;
   --h2-font-size:               42px;
