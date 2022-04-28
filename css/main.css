@@ -1,15 +1,48 @@
-@import url("css/fonts.css"); 
+/*@import url("css/fonts.css"); */
 
-/*@font-face {
-    font-family: 'caviardreams';
-    src: url("/fonts/caviardreams.ttf") format('truetype'),
-         url("/fonts/caviardreams_bold.ttf") format('truetype'),
-         url("/fonts/caviardreams_bolditalic.ttf") format('truetype'),
-         url("/fonts/caviardreams_italic.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
+/*--------------- FONTS----------------------- */
 
-}*/
+
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('CaviarDreams.svg#CaviarDreams') format('svg'),
+       url('CaviarDreams.ttf') format('truetype'),
+       url('CaviarDreams.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'caviardreams';
+  src: url('caviardreams.eot');
+  src: url('caviardreams.eot?#iefix') format('embedded-opentype'),
+       url('caviardreams.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CaviarDreams-Bold';
+  src: url('CaviarDreams-Bold.svg#CaviarDreams-Bold') format('svg'),
+       url('CaviarDreams-Bold.ttf') format('truetype'),
+       url('CaviarDreams-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'caviardreams_bold';
+  src: url('caviardreams_bold.eot');
+  src: url('caviardreams_bold.eot?#iefix') format('embedded-opentype'),
+       url('caviardreams_bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
@@ -79,6 +112,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: caviardreams, CaviarDreams;
   font-weight: var(--font-weight-bold);
 }
 
