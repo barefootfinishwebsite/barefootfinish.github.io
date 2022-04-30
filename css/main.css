@@ -4,37 +4,26 @@
 
 
 @font-face {
-  font-family: 'CaviarDreams';
-  src: url('CaviarDreams.svg#CaviarDreams') format('svg'),
-       url('CaviarDreams.ttf') format('truetype'),
-       url('CaviarDreams.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'caviardreams';
-  src: url('caviardreams.eot');
-  src: url('caviardreams.eot?#iefix') format('embedded-opentype'),
-       url('caviardreams.woff2') format('woff2');
+  src: url('fonts/caviardreams.eot');
+  src: url('fonts/caviardreams.eot?#iefix') format('embedded-opentype'),
+       url('fonts/caviardreams.woff2') format('woff2'),
+       url('fonts/caviardreams.svg#caviardreams') format('svg'),
+       url('fonts/caviardreams.ttf') format('truetype'),
+       url('fonts/caviardreams.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'CaviarDreams-Bold';
-  src: url('CaviarDreams-Bold.svg#CaviarDreams-Bold') format('svg'),
-       url('CaviarDreams-Bold.ttf') format('truetype'),
-       url('CaviarDreams-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'caviardreams_bold';
-  src: url('caviardreams_bold.eot');
-  src: url('caviardreams_bold.eot?#iefix') format('embedded-opentype'),
-       url('caviardreams_bold.woff2') format('woff2');
+  src: url('fonts/caviardreams_bold.eot');
+  src: url('fonts/caviardreams_bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/caviardreams_bold.woff2') format('woff2'),
+       url('fonts/caviardreams_bold.svg#caviardreams_bold') format('svg'),
+       url('fonts/caviardreams_bold.ttf') format('truetype'),
+       url('fonts/caviardreams_bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -57,7 +46,7 @@
   --title-color:                  #565758;
   --p-color:                      #717275;
 
-  --body-font-family:           'caviardreams', 'CaviarDreams', sans-serif;
+  --body-font-family:           'caviardreams', sans-serif;
     
 
   --h1-font-size:               72px;
@@ -112,7 +101,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: caviardreams, CaviarDreams;
+    font-family: caviardreams;
   font-weight: var(--font-weight-bold);
 }
 
