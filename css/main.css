@@ -5,8 +5,8 @@
 
 @font-face {
   font-family: 'caviardreams';
-  src: url('fonts/caviardreams.eot');
-  src: url('fonts/caviardreams.eot?#iefix') format('embedded-opentype'),
+  src: url('fonts/caviardreams.eot'),
+       url('fonts/caviardreams.eot?#iefix') format('embedded-opentype'),
        url('fonts/caviardreams.woff2') format('woff2'),
        url('fonts/caviardreams.svg#caviardreams') format('svg'),
        url('fonts/caviardreams.ttf') format('truetype'),
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'caviardreams_bold';
-  src: url('fonts/caviardreams_bold.eot');
-  src: url('fonts/caviardreams_bold.eot?#iefix') format('embedded-opentype'),
+  src: url('fonts/caviardreams_bold.eot'),
+       url('fonts/caviardreams_bold.eot?#iefix') format('embedded-opentype'),
        url('fonts/caviardreams_bold.woff2') format('woff2'),
        url('fonts/caviardreams_bold.svg#caviardreams_bold') format('svg'),
        url('fonts/caviardreams_bold.ttf') format('truetype'),
@@ -101,12 +101,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: caviardreams;
+   
   font-weight: var(--font-weight-bold);
 }
 
 h1,
 h2 {
+   font-family: caviardreams_bold;
   font-weight: var(--font-weight-black);
 }
 
@@ -120,22 +121,27 @@ h2 {
 }
 
 h3 {
+   font-family: caviardreams;
   font-size: var(--h3-font-size);
 }
 
 h4 {
+   font-family: caviardreams;
   font-size: var(--h4-font-size);
 }
 
 h5 {
+   font-family: caviardreams;
   font-size: var(--h5-font-size);
 }
 
 h6 {
+   font-family: caviardreams;
   font-size: var(--h6-font-size);
 }
 
 p {
+   font-family: caviardreams;
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
