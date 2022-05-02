@@ -1,36 +1,5 @@
 @import url("../css/fonts.css");
 
-/*--------------- FONTS----------------------- */
-
-/*
-@font-face {
-  font-family: 'caviardreams';
-  src: url('fonts/caviardreams.eot'),
-       url('fonts/caviardreams.eot?#iefix') format('embedded-opentype'),
-       url('fonts/caviardreams.woff2') format('woff2'),
-       url('fonts/caviardreams.svg#caviardreams') format('svg'),
-       url('fonts/caviardreams.ttf') format('truetype'),
-       url('fonts/caviardreams.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'caviardreams_bold';
-  src: url('fonts/caviardreams_bold.eot'),
-       url('fonts/caviardreams_bold.eot?#iefix') format('embedded-opentype'),
-       url('fonts/caviardreams_bold.woff2') format('woff2'),
-       url('fonts/caviardreams_bold.svg#caviardreams_bold') format('svg'),
-       url('fonts/caviardreams_bold.ttf') format('truetype'),
-       url('fonts/caviardreams_bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
- */
-
-
-
 
 
 /*---------------------------------------
@@ -204,20 +173,21 @@ a:hover {
 
 
 /* BUTTON */
-callbutton {
-			color: #f2f2f2;
-			background-color: #d5afda;
-			font-size: 19px;
-			border: 2px solid #ababab;
-			border-radius: 10px;
-			padding: 15px 50px;
-			letter-spacing: 1px;
-			cursor: pointer;
-      transition: all 0.3s;
+button {
+	color: #f2f2f2;
+	background-color: #d5afda;
+	font-family: caviardreams;
+	font-size: 19px;
+	border: 2px solid #ababab;
+	border-radius: 10px;
+	padding: 15px 50px;
+	letter-spacing: 1px;
+	cursor: pointer;
+        transition: all 0.3s;
 		}
-callbutton:hover {
-			color: #dea2e6;
-			background-color: #ffffff;
+button:hover {
+		color: #dea2e6;
+		background-color: #ffffff;
 		}
 
 /*---------------------------------------
